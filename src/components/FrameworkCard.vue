@@ -19,7 +19,10 @@ export default {
 		card: Object,
 		index: Number,
 		onDelete: Function,
-	}
+	},
+  beforeUnmount() {
+    console.log("before unmount hook")
+  },
 }
 </script>
 

@@ -23,7 +23,10 @@ export default {
 	name: 'AppBlock',
 	props: {
 	
-	}
+	},
+  mounted() {
+    console.log("Mounted hook")
+  },
 }
 </script>
 
